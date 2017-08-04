@@ -10,7 +10,7 @@ HWND hwnd;
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
-int WINAPI WinMain(HINST hInstance, HINST hPrevInstance, LPSTR lpCmdLine, i nCmdShow)
+int WINAPI WinMain(HINST hInstance, HINST hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 	hInst = hInstance;
 
