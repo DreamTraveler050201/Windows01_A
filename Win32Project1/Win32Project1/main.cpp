@@ -1,6 +1,5 @@
 #include <Windows.h>
 
-typedef int i;
 typedef HINSTANCE HINST;
 
 #define API WINAPI
@@ -11,7 +10,7 @@ HWND hwnd;
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
-i WINAPI WinMain(HINST hInstance, HINST hPrevInstance, LPSTR lpCmdLine, i nCmdShow)
+int WINAPI WinMain(HINST hInstance, HINST hPrevInstance, LPSTR lpCmdLine, i nCmdShow)
 {
 	hInst = hInstance;
 
